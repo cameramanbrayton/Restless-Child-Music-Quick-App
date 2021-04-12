@@ -5,4 +5,38 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000000"
-    tools:context=".MainActivity" />
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/headerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="87dp"
+        android:layout_marginLeft="87dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginRight="87dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/restless_child_music_quick_app"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/rcHomeImage"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerTextView"
+        android:contentDescription="@string/rchome"
+        android:onClick="openBrowser"
+        android:tag="https://home.restlesschild.rocks"
+        app:srcCompat="@drawable/restless_512" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

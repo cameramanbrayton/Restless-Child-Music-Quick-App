@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Restless Child Music Quick App</string>
+    <string name="restless_child_music_quick_app">Restless Child Music Quick App</string>
+    <string name="rchome">rchome</string>
 </resources>
