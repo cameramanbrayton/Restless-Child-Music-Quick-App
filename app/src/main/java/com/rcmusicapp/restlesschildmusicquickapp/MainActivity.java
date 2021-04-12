@@ -24,6 +24,9 @@ public class MainActivity extends AppCompatActivity {
 
         textView = findViewById(R.id.aboutRcLinkText);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
+
+        textView = findViewById(R.id.albumRcLinkText);
+        textView.setMovementMethod(LinkMovementMethod.getInstance());
     }
 
     public void openBrowser(View view){
