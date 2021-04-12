@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Restless Child Music Quick App"
