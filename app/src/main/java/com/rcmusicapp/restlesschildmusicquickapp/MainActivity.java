@@ -30,6 +30,9 @@ public class MainActivity extends AppCompatActivity {
 
         textView = findViewById(R.id.duelingHomeLinkText);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
+
+        textView = findViewById(R.id.bgdHomeLinkText);
+        textView.setMovementMethod(LinkMovementMethod.getInstance());
     }
 
     public void openBrowser(View view){
