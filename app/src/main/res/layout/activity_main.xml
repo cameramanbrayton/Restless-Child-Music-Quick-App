@@ -222,4 +222,18 @@
         app:layout_constraintStart_toEndOf="@+id/rcHomeImage"
         app:layout_constraintTop_toBottomOf="@+id/headerTextView" />
 
+    <ImageView
+        android:id="@+id/vivsHomeImage"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/string_vivshome"
+        android:onClick="openBrowser"
+        android:tag="https://home.vivians.biz/"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bgdHomeImage"
+        app:srcCompat="@drawable/vivs_512" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
