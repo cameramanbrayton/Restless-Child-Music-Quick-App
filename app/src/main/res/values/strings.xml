@@ -4,4 +4,5 @@
     <string name="rchome">rchome</string>
     <string name="restless_child_1988_to_present_app_beginning_home_page" translatable="false"><a href="https://home.restlesschild.rocks">
         Restless Child 1988 to Present App - Beginning Home Page</a></string>
+    <string name="restless_child_1988_to_present_app_login_register_page" translatable="false"><a href="https://home.restlesschild.rocks/login/">Restless Child 1988 to Present App - Login/Register Page</a></string>
 </resources>

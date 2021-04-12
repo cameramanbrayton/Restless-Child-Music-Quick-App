@@ -16,7 +16,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        textView = findViewById(R.id.homeRcLinkText01);
+        textView = findViewById(R.id.homeRcLinkText);
+        textView.setMovementMethod(LinkMovementMethod.getInstance());
+
+        textView = findViewById(R.id.loginRcLinkText);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
     }
 
