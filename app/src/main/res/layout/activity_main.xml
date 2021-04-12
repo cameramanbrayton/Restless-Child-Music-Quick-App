@@ -236,4 +236,23 @@
         app:layout_constraintTop_toBottomOf="@+id/bgdHomeImage"
         app:srcCompat="@drawable/vivs_512" />
 
+    <TextView
+        android:id="@+id/vivsHomeLinkText"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="512dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:text="@string/shopping_vivians_app_home_page"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/rcHomeImage"
+        app:layout_constraintTop_toBottomOf="@+id/headerTextView" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
