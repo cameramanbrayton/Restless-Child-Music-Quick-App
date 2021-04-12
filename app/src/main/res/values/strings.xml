@@ -2,4 +2,6 @@
     <string name="app_name">Restless Child Music Quick App</string>
     <string name="restless_child_music_quick_app">Restless Child Music Quick App</string>
     <string name="rchome">rchome</string>
+    <string name="restless_child_1988_to_present_app_beginning_home_page" translatable="false"><a href="https://home.restlesschild.rocks">
+        Restless Child 1988 to Present App - Beginning Home Page</a></string>
 </resources>
