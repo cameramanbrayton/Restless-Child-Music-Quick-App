@@ -23,7 +23,7 @@
             android:gravity="center|center_horizontal"
             android:text="@string/restless_child_music_quick_app"
             android:textColor="#FFFFFF"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/rcHomeImage"
             app:layout_constraintEnd_toEndOf="parent"
@@ -45,7 +45,7 @@
 
         <TextView
             android:id="@+id/homeRcLinkText"
-            android:layout_width="411dp"
+            android:layout_width="320dp"
             android:layout_height="60dp"
             android:gravity="center"
             android:paddingLeft="15dp"
@@ -73,7 +73,7 @@
 
         <TextView
             android:id="@+id/loginRcLinkText"
-            android:layout_width="411dp"
+            android:layout_width="320dp"
             android:layout_height="60dp"
             android:gravity="center"
             android:paddingLeft="15dp"
@@ -101,7 +101,7 @@
 
         <TextView
             android:id="@+id/aboutRcLinkText"
-            android:layout_width="411dp"
+            android:layout_width="320dp"
             android:layout_height="60dp"
             android:gravity="center"
             android:paddingLeft="15dp"
@@ -129,7 +129,7 @@
 
         <TextView
             android:id="@+id/albumRcLinkText"
-            android:layout_width="411dp"
+            android:layout_width="320dp"
             android:layout_height="60dp"
             android:gravity="center|center_horizontal"
             android:paddingLeft="15dp"
@@ -157,7 +157,7 @@
 
         <TextView
             android:id="@+id/duelingHomeLinkText"
-            android:layout_width="411dp"
+            android:layout_width="320dp"
             android:layout_height="60dp"
             android:gravity="center"
             android:paddingLeft="15dp"
@@ -185,7 +185,7 @@
 
         <TextView
             android:id="@+id/bgdHomeLinkText"
-            android:layout_width="411dp"
+            android:layout_width="320dp"
             android:layout_height="60dp"
             android:gravity="center"
             android:paddingLeft="15dp"
@@ -213,9 +213,8 @@
 
         <TextView
             android:id="@+id/vivsHomeLinkText"
-            android:layout_width="411dp"
+            android:layout_width="320dp"
             android:layout_height="60dp"
-            android:layout_marginBottom="50dp"
             android:gravity="center"
             android:paddingLeft="15dp"
             android:paddingRight="15dp"
@@ -223,7 +222,6 @@
             android:textColor="#FFFFFF"
             android:textSize="22sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/vivsHomeImage" />
