@@ -123,14 +123,15 @@
             android:id="@+id/rcHomeImage"
             android:layout_width="0dp"
             android:layout_height="420dp"
+            android:layout_marginTop="20dp"
             android:contentDescription="@string/rchome"
             android:onClick="openBrowser"
             android:tag="https://home.restlesschild.rocks"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:srcCompat="@drawable/ic_restless_512"
-            tools:layout_editor_absoluteY="2698dp" />
+            app:layout_constraintTop_toBottomOf="@+id/rcBgdMusicAppLinkText"
+            app:srcCompat="@drawable/ic_restless_512" />
 
         <TextView
             android:id="@+id/loginRcLinkText"
