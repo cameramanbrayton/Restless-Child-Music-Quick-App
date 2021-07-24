@@ -16,6 +16,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        textView = findViewById(R.id.rcBgdMusicAppLinkText);
+        textView.setMovementMethod(LinkMovementMethod.getInstance());
+
+        textView = findViewById(R.id.bgdMusicAppLinkText);
+        textView.setMovementMethod(LinkMovementMethod.getInstance());
+
+        textView = findViewById(R.id.rcMusicAppLinkText);
+        textView.setMovementMethod(LinkMovementMethod.getInstance());
+
         textView = findViewById(R.id.homeRcLinkText);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
 
