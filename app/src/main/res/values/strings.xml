@@ -2,11 +2,9 @@
     <string name="app_name">Restless Child Music Quick App</string>
     <string name="restless_child_music_quick_app">Restless Child Music Quick App</string>
     <string name="rchome">rchome</string>
-    <string name="restless_child_1988_to_present_app_beginning_home_page" translatable="false"><a href="https://home.restlesschild.rocks">
+    <string name="restless_child_1988_to_present_app_beginning_home_page" translatable="false"><a href="https://restlesschild.rocks/beginning/">
         Restless Child 1988 to Present App - Beginning Home Page</a></string>
-    <string name="restless_child_1988_to_present_app_login_register_page" translatable="false"><a href="https://home.restlesschild.rocks/login/">
-        Restless Child 1988 to Present App - Login/Register Page</a></string>
-    <string name="restless_child_1988_to_present_app_about_page" translatable="false"><a href="https://home.restlesschild.rocks/about-the-band-restless-child/">
+    <string name="restless_child_1988_to_present_app_about_page" translatable="false"><a href="https://restlesschild.rocks/about-the-band-restless-child/">
         Restless Child 1988 to Present App - About Page</a></string>
     <string name="restless_child_1988_to_present_app_1989_album_page" translatable="false"><a href="https://home.restlesschild.rocks/1989-restless-child-album/">
         Restless Child 1988 to Present App - 1989 Album Page</a></string>

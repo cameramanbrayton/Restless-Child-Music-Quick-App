@@ -28,9 +28,6 @@ public class MainActivity extends AppCompatActivity {
         textView = findViewById(R.id.homeRcLinkText);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
 
-        textView = findViewById(R.id.loginRcLinkText);
-        textView.setMovementMethod(LinkMovementMethod.getInstance());
-
         textView = findViewById(R.id.aboutRcLinkText);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
 

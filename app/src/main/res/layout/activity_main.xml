@@ -124,9 +124,9 @@
             android:layout_width="0dp"
             android:layout_height="420dp"
             android:layout_marginTop="20dp"
-            android:contentDescription="@string/rchome"
+            android:contentDescription="@string/restless_child_1988_to_present_app_beginning_home_page"
             android:onClick="openBrowser"
-            android:tag="https://home.restlesschild.rocks"
+            android:tag="https://restlesschild.rocks/beginning/"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -134,40 +134,40 @@
             app:srcCompat="@drawable/ic_restless_512" />
 
         <TextView
-            android:id="@+id/loginRcLinkText"
+            android:id="@+id/homeRcLinkText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="8dp"
             android:gravity="center"
             android:padding="10sp"
-            android:text="@string/restless_child_1988_to_present_app_login_register_page"
+            android:text="@string/restless_child_1988_to_present_app_beginning_home_page"
             android:textColor="#FFFFFF"
             android:textSize="45sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rcLoginImage" />
+            app:layout_constraintTop_toBottomOf="@+id/rcHomeImage" />
 
         <ImageView
             android:id="@+id/rcAboutImage"
             android:layout_width="0dp"
             android:layout_height="450dp"
-            android:layout_marginTop="32dp"
-            android:contentDescription="@string/rchome"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/restless_child_1988_to_present_app_about_page"
             android:onClick="openBrowser"
-            android:tag="https://home.restlesschild.rocks/about-the-band-restless-child/"
+            android:tag="https://restlesschild.rocks/about-the-band-restless-child/"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/loginRcLinkText"
+            app:layout_constraintTop_toBottomOf="@+id/homeRcLinkText"
             app:srcCompat="@drawable/ic_restless_512" />
 
         <TextView
             android:id="@+id/aboutRcLinkText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="28dp"
+            android:layout_marginTop="8dp"
             android:gravity="center"
             android:padding="10sp"
             android:text="@string/restless_child_1988_to_present_app_about_page"
@@ -298,36 +298,6 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/vivsHomeImage" />
-
-        <ImageView
-            android:id="@+id/rcLoginImage"
-            android:layout_width="0dp"
-            android:layout_height="420dp"
-            android:layout_marginTop="24dp"
-            android:contentDescription="@string/rchome"
-            android:onClick="openBrowser"
-            android:tag="https://home.restlesschild.rocks/login/"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/homeRcLinkText"
-            app:srcCompat="@drawable/ic_restless_512" />
-
-        <TextView
-            android:id="@+id/homeRcLinkText"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="48dp"
-            android:gravity="center"
-            android:padding="10sp"
-            android:text="@string/restless_child_1988_to_present_app_beginning_home_page"
-            android:textColor="#FFFFFF"
-            android:textSize="45sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rcHomeImage" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
