@@ -34,6 +34,12 @@ public class MainActivity extends AppCompatActivity {
         textView = findViewById(R.id.albumRcLinkText);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
 
+        textView = findViewById(R.id.contactRcLinkText);
+        textView.setMovementMethod(LinkMovementMethod.getInstance());
+
+        textView = findViewById(R.id.blogRcLinkText);
+        textView.setMovementMethod(LinkMovementMethod.getInstance());
+
         textView = findViewById(R.id.duelingHomeLinkText);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
 
