@@ -131,7 +131,7 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/rcBgdMusicAppLinkText"
-            app:srcCompat="@drawable/ic_restless_512" />
+            app:srcCompat="@drawable/ic_restlesschild_members" />
 
         <TextView
             android:id="@+id/homeRcLinkText"
@@ -161,7 +161,7 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/homeRcLinkText"
-            app:srcCompat="@drawable/ic_restless_512" />
+            app:srcCompat="@drawable/ic_restlesschild_members" />
 
         <TextView
             android:id="@+id/aboutRcLinkText"
@@ -191,7 +191,7 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/aboutRcLinkText"
-            app:srcCompat="@drawable/ic_restless_512" />
+            app:srcCompat="@drawable/ic_restlesschild_members" />
 
         <TextView
             android:id="@+id/albumRcLinkText"
