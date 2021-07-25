@@ -60,6 +60,36 @@
             app:layout_constraintTop_toBottomOf="@+id/rcMusicAppImage" />
 
         <ImageView
+            android:id="@+id/bgdMusicAppImage"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/bad_girls_dream_album_in_app_site_the_taste_of_satisfaction_1990_album_5_songs_1_99"
+            android:onClick="openBrowser"
+            android:tag="https://shop.duelingworlds.com/shop/bad-girls-dream-album-in-app-site-the-taste-of-satisfaction-1990-album-5-songs-1-99/"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rcMusicAppLinkText"
+            app:srcCompat="@drawable/ic_bgd_music_app_product_image_reduced" />
+
+        <TextView
+            android:id="@+id/bgdMusicAppLinkText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:padding="10sp"
+            android:text="@string/bad_girls_dream_album_in_app_site_the_taste_of_satisfaction_1990_album_5_songs_1_99"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bgdMusicAppImage" />
+
+        <ImageView
             android:id="@+id/rcHomeImage"
             android:layout_width="0dp"
             android:layout_height="200dp"
