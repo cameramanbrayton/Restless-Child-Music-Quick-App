@@ -11,8 +11,6 @@
     <string name="string_duelinghome">string/duelinghome</string>
     <string name="string_bgdhome">string/bgdhome</string>
     <string name="string_vivshome">string_vivshome</string>
-    <string name="shopping_vivians_app_home_page" translatable="false"><a href="https://home.vivians.biz/">
-        Shopping @ Vivian\'s App Home Page</a></string>
     <string name="restless_child_album_in_app_site_1989_album_12_songs_2_99" translatable="false">
         <a href="https://shop.duelingworlds.com/shop/restless-child-album-in-app-site-1989-album-12-songs-2-99/">
             Restless Child Album in App Site 1989 Album, 12 songs $2.99</a></string>
@@ -30,4 +28,6 @@
         <a href="https://duelingworlds.com">Dueling Worlds© International Quick App</a></string>
     <string name="bad_girls_dream_1990_present_quick_app" translatable="false">
         <a href="https://bgdmusic.club/">Bad Girls Dream 1990 - Present Quick App</a></string>
+    <string name="shopping_vivians_quick_app" translatable="false">
+        <a href="https://vivians.biz">Shopping @ Vivian\'s Quick App</a></string>
 </resources>
