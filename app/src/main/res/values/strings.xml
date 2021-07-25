@@ -10,8 +10,6 @@
         Restless Child 1988 to Present App - 1989 Album Page</a></string>
     <string name="string_duelinghome">string/duelinghome</string>
     <string name="string_bgdhome">string/bgdhome</string>
-    <string name="bad_girls_dream_1990_present_app_home_page" translatable="false"><a href="https://homer.bgdmusic.club/">
-        Bad Girls Dream 1990 - Present App Home Page</a></string>
     <string name="string_vivshome">string_vivshome</string>
     <string name="shopping_vivians_app_home_page" translatable="false"><a href="https://home.vivians.biz/">
         Shopping @ Vivian\'s App Home Page</a></string>
@@ -30,4 +28,6 @@
         <a href="https://restlesschild.rocks/our-blog-restless-child/">Restless Child 1988 to Present App - Our Blog</a></string>
     <string name="dueling_worlds_international_quick_app" translatable="false">
         <a href="https://duelingworlds.com">Dueling Worlds© International Quick App</a></string>
+    <string name="bad_girls_dream_1990_present_quick_app" translatable="false">
+        <a href="https://bgdmusic.club/">Bad Girls Dream 1990 - Present Quick App</a></string>
 </resources>

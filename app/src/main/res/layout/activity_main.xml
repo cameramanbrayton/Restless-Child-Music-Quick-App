@@ -300,6 +300,36 @@
             app:layout_constraintTop_toBottomOf="@+id/duelingHomeImage" />
 
         <ImageView
+            android:id="@+id/bgdHomeImage"
+            android:layout_width="0dp"
+            android:layout_height="450dp"
+            android:layout_marginTop="24dp"
+            android:contentDescription="@string/string_bgdhome"
+            android:onClick="openBrowser"
+            android:tag="https://bgdmusic.club/"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/duelingHomeLinkText"
+            app:srcCompat="@drawable/ic_bgd_concert_512" />
+
+        <TextView
+            android:id="@+id/bgdHomeLinkText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:padding="10sp"
+            android:text="@string/bad_girls_dream_1990_present_quick_app"
+            android:textColor="#FFFFFF"
+            android:textSize="45sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bgdHomeImage" />
+
+        <ImageView
             android:id="@+id/vivsHomeImage"
             android:layout_width="0dp"
             android:layout_height="450dp"
@@ -328,36 +358,6 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/vivsHomeImage" />
-
-        <ImageView
-            android:id="@+id/bgdHomeImage"
-            android:layout_width="0dp"
-            android:layout_height="450dp"
-            android:layout_marginTop="24dp"
-            android:contentDescription="@string/string_bgdhome"
-            android:onClick="openBrowser"
-            android:tag="https://homer.bgdmusic.club/"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/duelingHomeLinkText"
-            app:srcCompat="@drawable/ic_bgd_concert_512" />
-
-        <TextView
-            android:id="@+id/bgdHomeLinkText"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:gravity="center"
-            android:padding="10sp"
-            android:text="@string/bad_girls_dream_1990_present_app_home_page"
-            android:textColor="#FFFFFF"
-            android:textSize="45sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/bgdHomeImage" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
