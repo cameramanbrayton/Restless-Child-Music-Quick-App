@@ -273,14 +273,31 @@
             android:id="@+id/duelingHomeImage"
             android:layout_width="0dp"
             android:layout_height="450dp"
-            android:contentDescription="@string/string_duelinghome"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/dueling_worlds_international_quick_app"
             android:onClick="openBrowser"
-            android:tag="https://home.duelingworlds.com/"
+            android:tag="https://duelingworlds.com/"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:srcCompat="@drawable/ic_duelingworlds_512"
-            tools:layout_editor_absoluteY="5496dp" />
+            app:layout_constraintTop_toBottomOf="@+id/blogRcLinkText"
+            app:srcCompat="@drawable/ic_duelingworlds_512" />
+
+        <TextView
+            android:id="@+id/duelingHomeLinkText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/dueling_worlds_international_quick_app"
+            android:textColor="#FFFFFF"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/duelingHomeImage" />
 
         <ImageView
             android:id="@+id/vivsHomeImage"
@@ -311,22 +328,6 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/vivsHomeImage" />
-
-        <TextView
-            android:id="@+id/duelingHomeLinkText"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="92dp"
-            android:gravity="center"
-            android:padding="10dp"
-            android:text="@string/dueling_worlds_international_home_page"
-            android:textColor="#FFFFFF"
-            android:textSize="48sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/duelingHomeImage" />
 
         <ImageView
             android:id="@+id/bgdHomeImage"

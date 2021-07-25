@@ -9,8 +9,6 @@
     <string name="restless_child_1988_to_present_app_1989_album_page" translatable="false"><a href="https://restlesschild.rocks/1989-restless-child-album/">
         Restless Child 1988 to Present App - 1989 Album Page</a></string>
     <string name="string_duelinghome">string/duelinghome</string>
-    <string name="dueling_worlds_international_home_page" translatable="false"><a href="https://home.duelingworlds.com/">
-        Dueling Worlds© International Home Page</a></string>
     <string name="string_bgdhome">string/bgdhome</string>
     <string name="bad_girls_dream_1990_present_app_home_page" translatable="false"><a href="https://homer.bgdmusic.club/">
         Bad Girls Dream 1990 - Present App Home Page</a></string>
@@ -30,4 +28,6 @@
         <a href="https://restlesschild.rocks/contact-brayton-scott/">Restless Child 1988 to Present App - Contact Us</a></string>
     <string name="restless_child_1988_to_present_app_our_blog" translatable="false">
         <a href="https://restlesschild.rocks/our-blog-restless-child/">Restless Child 1988 to Present App - Our Blog</a></string>
+    <string name="dueling_worlds_international_quick_app" translatable="false">
+        <a href="https://duelingworlds.com">Dueling Worlds© International Quick App</a></string>
 </resources>
