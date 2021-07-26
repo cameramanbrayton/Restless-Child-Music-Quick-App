@@ -30,22 +30,114 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
+            android:id="@+id/rcMusicAppImage"
+            android:layout_width="0dp"
+            android:layout_height="384dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/restless_child_album_in_app_site_1989_album_12_songs_2_99"
+            android:onClick="openBrowser"
+            android:tag="https://shop.duelingworlds.com/shop/restless-child-album-in-app-site-1989-album-12-songs-2-99/"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/headerTextView"
+            app:srcCompat="@drawable/ic_rcb_music_app_product_image_reduced" />
+
+        <TextView
+            android:id="@+id/rcMusicAppLinkText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:padding="10sp"
+            android:text="@string/restless_child_album_in_app_site_1989_album_12_songs_2_99"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rcMusicAppImage" />
+
+        <ImageView
+            android:id="@+id/bgdMusicAppImage"
+            android:layout_width="0dp"
+            android:layout_height="384dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/bad_girls_dream_album_in_app_site_the_taste_of_satisfaction_1990_album_5_songs_1_99"
+            android:onClick="openBrowser"
+            android:tag="https://shop.duelingworlds.com/shop/bad-girls-dream-album-in-app-site-the-taste-of-satisfaction-1990-album-5-songs-1-99/"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rcMusicAppLinkText"
+            app:srcCompat="@drawable/ic_bgd_music_app_product_image_reduced" />
+
+        <TextView
+            android:id="@+id/bgdMusicAppLinkText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:padding="10sp"
+            android:text="@string/bad_girls_dream_album_in_app_site_the_taste_of_satisfaction_1990_album_5_songs_1_99"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bgdMusicAppImage" />
+
+        <ImageView
+            android:id="@+id/rcBgdMusicAppImage"
+            android:layout_width="0dp"
+            android:layout_height="384dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/brayton_scott_music_entertainment_all_music_app_17_songs_3_99"
+            android:onClick="openBrowser"
+            android:tag="https://shop.duelingworlds.com/shop/brayton-scott-music-entertainment-all-music-app-17-songs-3-99/"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bgdMusicAppLinkText"
+            app:srcCompat="@drawable/ic_rcbgd_music_app_product_image_reduced" />
+
+        <TextView
+            android:id="@+id/rcBgdMusicAppLinkText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:padding="10sp"
+            android:text="@string/brayton_scott_music_entertainment_all_music_app_17_songs_3_99"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rcBgdMusicAppImage" />
+
+        <ImageView
             android:id="@+id/rcHomeImage"
             android:layout_width="0dp"
             android:layout_height="384dp"
             android:layout_marginTop="20dp"
-            android:contentDescription="@string/rchome"
+            android:contentDescription="@string/restless_child_1988_to_present_app_beginning_home_page"
             android:onClick="openBrowser"
-            android:tag="https://home.restlesschild.rocks"
+            android:tag="https://restlesschild.rocks/beginning/"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/headerTextView"
-            app:srcCompat="@drawable/ic_restless_512" />
+            app:layout_constraintTop_toBottomOf="@+id/rcBgdMusicAppLinkText"
+            app:srcCompat="@drawable/ic_restlesschild_members" />
 
         <TextView
             android:id="@+id/homeRcLinkText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:gravity="center"
             android:padding="10sp"
             android:text="@string/restless_child_1988_to_present_app_beginning_home_page"
@@ -53,35 +145,9 @@
             android:textSize="40sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/rcHomeImage" />
-
-        <ImageView
-            android:id="@+id/rcLoginImage"
-            android:layout_width="0dp"
-            android:layout_height="384dp"
-            android:layout_marginTop="20dp"
-            android:contentDescription="@string/rchome"
-            android:onClick="openBrowser"
-            android:tag="https://home.restlesschild.rocks/login/"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/homeRcLinkText"
-            app:srcCompat="@drawable/ic_restless_512" />
-
-        <TextView
-            android:id="@+id/loginRcLinkText"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:gravity="center|center_horizontal"
-            android:padding="10sp"
-            android:text="@string/restless_child_1988_to_present_app_login_register_page"
-            android:textColor="#FFFFFF"
-            android:textSize="40sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rcLoginImage" />
 
         <ImageView
             android:id="@+id/rcAboutImage"
@@ -90,16 +156,18 @@
             android:layout_marginTop="20dp"
             android:contentDescription="@string/rchome"
             android:onClick="openBrowser"
-            android:tag="https://home.restlesschild.rocks/about-the-band-restless-child/"
+            android:tag="https://restlesschild.rocks/about-the-band-restless-child/"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/loginRcLinkText"
-            app:srcCompat="@drawable/ic_restless_512" />
+            app:layout_constraintTop_toBottomOf="@+id/homeRcLinkText"
+            app:srcCompat="@drawable/ic_restlesschild_members" />
 
         <TextView
             android:id="@+id/aboutRcLinkText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:gravity="center"
             android:padding="10sp"
             android:text="@string/restless_child_1988_to_present_app_about_page"
@@ -107,6 +175,7 @@
             android:textSize="40sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/rcAboutImage" />
 
@@ -115,18 +184,20 @@
             android:layout_width="0dp"
             android:layout_height="384dp"
             android:layout_marginTop="20dp"
-            android:contentDescription="@string/rchome"
+            android:contentDescription="@string/restless_child_1988_to_present_app_1989_album_page"
             android:onClick="openBrowser"
-            android:tag="https://home.restlesschild.rocks/1989-restless-child-album/"
+            android:tag="https://restlesschild.rocks/1989-restless-child-album/"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/aboutRcLinkText"
-            app:srcCompat="@drawable/ic_restless_512" />
+            app:srcCompat="@drawable/ic_restlesschild_members" />
 
         <TextView
             android:id="@+id/albumRcLinkText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:gravity="center|center_horizontal"
             android:padding="10sp"
             android:text="@string/restless_child_1988_to_present_app_1989_album_page"
@@ -134,18 +205,22 @@
             android:textSize="40sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/rcAlbumImage" />
+
+
 
         <ImageView
             android:id="@+id/duelingHomeImage"
             android:layout_width="0dp"
             android:layout_height="384dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="4dp"
             android:contentDescription="@string/string_duelinghome"
             android:onClick="openBrowser"
             android:tag="https://home.duelingworlds.com/"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/albumRcLinkText"
             app:srcCompat="@drawable/ic_duelingworlds_512" />
@@ -154,6 +229,7 @@
             android:id="@+id/duelingHomeLinkText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:gravity="center"
             android:padding="10sp"
             android:text="@string/dueling_worlds_international_home_page"
@@ -161,6 +237,7 @@
             android:textSize="40sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/duelingHomeImage" />
 
@@ -168,11 +245,12 @@
             android:id="@+id/bgdHomeImage"
             android:layout_width="0dp"
             android:layout_height="384dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="28dp"
             android:contentDescription="@string/string_bgdhome"
             android:onClick="openBrowser"
             android:tag="https://homer.bgdmusic.club/"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/duelingHomeLinkText"
             app:srcCompat="@drawable/ic_bgd_concert_512" />
@@ -181,6 +259,7 @@
             android:id="@+id/bgdHomeLinkText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
             android:gravity="center"
             android:padding="10sp"
             android:text="@string/bad_girls_dream_1990_present_app_home_page"
@@ -188,6 +267,7 @@
             android:textSize="40sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/bgdHomeImage" />
 
@@ -195,11 +275,12 @@
             android:id="@+id/vivsHomeImage"
             android:layout_width="0dp"
             android:layout_height="384dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="12dp"
             android:contentDescription="@string/string_vivshome"
             android:onClick="openBrowser"
             android:tag="https://home.vivians.biz/"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/bgdHomeLinkText"
             app:srcCompat="@drawable/ic_vivs_512" />
@@ -208,6 +289,7 @@
             android:id="@+id/vivsHomeLinkText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
             android:gravity="center"
             android:padding="10sp"
             android:text="@string/shopping_vivians_app_home_page"
@@ -215,6 +297,7 @@
             android:textSize="40sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/vivsHomeImage" />
 
