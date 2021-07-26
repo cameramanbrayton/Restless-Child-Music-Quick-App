@@ -183,7 +183,7 @@
             android:id="@+id/rcAlbumImage"
             android:layout_width="0dp"
             android:layout_height="350dp"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="20dp"
             android:contentDescription="@string/restless_child_1988_to_present_app_about_page"
             android:onClick="openBrowser"
             android:tag="https://restlesschild.rocks/1989-restless-child-album/"
@@ -197,7 +197,7 @@
             android:id="@+id/albumRcLinkText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="36dp"
+            android:layout_marginTop="8dp"
             android:gravity="center|center_horizontal"
             android:padding="10sp"
             android:text="@string/restless_child_1988_to_present_app_1989_album_page"
@@ -210,54 +210,53 @@
             app:layout_constraintTop_toBottomOf="@+id/rcAlbumImage" />
 
         <ImageView
-            android:id="@+id/duelingHomeImage"
+            android:id="@+id/rcContactImage"
             android:layout_width="0dp"
             android:layout_height="350dp"
-            android:layout_marginTop="16dp"
-            android:contentDescription="@string/string_duelinghome"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/restless_child_1988_to_present_app_contact_us"
             android:onClick="openBrowser"
-            android:tag="https://home.duelingworlds.com/"
+            android:tag="https://restlesschild.rocks/contact-brayton-scott/"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/albumRcLinkText"
-            app:srcCompat="@drawable/ic_duelingworlds_512" />
+            app:srcCompat="@drawable/ic_restlesschild_members" />
 
         <TextView
-            android:id="@+id/duelingHomeLinkText"
+            android:id="@+id/contactRcLinkText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:gravity="center|center_horizontal"
             android:padding="10sp"
-            android:text="@string/dueling_worlds_international_home_page"
+            android:text="@string/restless_child_1988_to_present_app_contact_us"
             android:textColor="#FFFFFF"
             android:textSize="36sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/duelingHomeImage" />
+            app:layout_constraintTop_toBottomOf="@+id/rcContactImage" />
 
         <ImageView
-            android:id="@+id/bgdHomeImage"
+            android:id="@+id/duelingHomeImage"
             android:layout_width="0dp"
             android:layout_height="350dp"
-            android:layout_marginTop="36dp"
-            android:contentDescription="@string/string_bgdhome"
+            android:contentDescription="@string/string_duelinghome"
             android:onClick="openBrowser"
-            android:tag="https://homer.bgdmusic.club/"
+            android:tag="https://home.duelingworlds.com/"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/duelingHomeLinkText"
-            app:srcCompat="@drawable/ic_bgd_concert_512" />
+            app:srcCompat="@drawable/ic_duelingworlds_512"
+            tools:layout_editor_absoluteY="4164dp" />
 
         <TextView
             android:id="@+id/bgdHomeLinkText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="24dp"
             android:gravity="center"
             android:padding="10sp"
             android:text="@string/bad_girls_dream_1990_present_app_home_page"
@@ -265,7 +264,7 @@
             android:textSize="36sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/bgdHomeImage" />
 
@@ -273,12 +272,12 @@
             android:id="@+id/vivsHomeImage"
             android:layout_width="0dp"
             android:layout_height="350dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="20dp"
             android:contentDescription="@string/string_vivshome"
             android:onClick="openBrowser"
             android:tag="https://home.vivians.biz/"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/bgdHomeLinkText"
             app:srcCompat="@drawable/ic_vivs_512" />
@@ -287,7 +286,7 @@
             android:id="@+id/vivsHomeLinkText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="16dp"
             android:gravity="center"
             android:padding="10sp"
             android:text="@string/shopping_vivians_app_home_page"
@@ -295,9 +294,39 @@
             android:textSize="36sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/vivsHomeImage" />
+
+        <TextView
+            android:id="@+id/duelingHomeLinkText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:padding="10sp"
+            android:text="@string/dueling_worlds_international_home_page"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/duelingHomeImage" />
+
+        <ImageView
+            android:id="@+id/bgdHomeImage"
+            android:layout_width="0dp"
+            android:layout_height="350dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/string_bgdhome"
+            android:onClick="openBrowser"
+            android:tag="https://homer.bgdmusic.club/"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/duelingHomeLinkText"
+            app:srcCompat="@drawable/ic_bgd_concert_512" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
