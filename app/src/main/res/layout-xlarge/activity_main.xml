@@ -154,7 +154,7 @@
             android:layout_width="0dp"
             android:layout_height="384dp"
             android:layout_marginTop="20dp"
-            android:contentDescription="@string/rchome"
+            android:contentDescription="@string/restless_child_1988_to_present_app_about_page"
             android:onClick="openBrowser"
             android:tag="https://restlesschild.rocks/about-the-band-restless-child/"
             app:layout_constraintEnd_toEndOf="parent"
