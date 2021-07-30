@@ -41,7 +41,8 @@
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/headerTextView"
-            app:srcCompat="@drawable/ic_rcb_music_app_product_image_reduced" />
+            app:srcCompat="@drawable/ic_rcb_music_app_product_image_reduced"
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/rcMusicAppLinkText"
@@ -71,7 +72,8 @@
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/rcMusicAppLinkText"
-            app:srcCompat="@drawable/ic_bgd_music_app_product_image_reduced" />
+            app:srcCompat="@drawable/ic_bgd_music_app_product_image_reduced"
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/bgdMusicAppLinkText"
@@ -101,7 +103,8 @@
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/bgdMusicAppLinkText"
-            app:srcCompat="@drawable/ic_rcbgd_music_app_product_image_reduced" />
+            app:srcCompat="@drawable/ic_rcbgd_music_app_product_image_reduced"
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/rcBgdMusicAppLinkText"
@@ -131,7 +134,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/rcBgdMusicAppLinkText"
-            app:srcCompat="@drawable/ic_restlesschild_members" />
+            app:srcCompat="@drawable/ic_restlesschild_members"
+            tools:ignore="UsingOnClickInXml,ImageContrastCheck" />
 
         <TextView
             android:id="@+id/homeRcLinkText"
@@ -161,7 +165,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/homeRcLinkText"
-            app:srcCompat="@drawable/ic_restlesschild_members" />
+            app:srcCompat="@drawable/ic_restlesschild_members"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/aboutRcLinkText"
@@ -191,7 +196,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/aboutRcLinkText"
-            app:srcCompat="@drawable/ic_restlesschild_members" />
+            app:srcCompat="@drawable/ic_restlesschild_members"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/albumRcLinkText"
@@ -221,7 +227,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/albumRcLinkText"
-            app:srcCompat="@drawable/ic_restlesschild_members" />
+            app:srcCompat="@drawable/ic_restlesschild_members"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/contactRcLinkText"
@@ -251,7 +258,8 @@
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/contactRcLinkText"
-            app:srcCompat="@drawable/ic_restlesschild_members" />
+            app:srcCompat="@drawable/ic_restlesschild_members"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/blogRcLinkText"
@@ -281,7 +289,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/blogRcLinkText"
-            app:srcCompat="@drawable/ic_duelingworlds_512" />
+            app:srcCompat="@drawable/ic_duelingworlds_512"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/duelingHomeLinkText"
@@ -311,7 +320,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/duelingHomeLinkText"
-            app:srcCompat="@drawable/ic_bgd_concert_512" />
+            app:srcCompat="@drawable/ic_bgd_concert_512"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/bgdHomeLinkText"
@@ -341,7 +351,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/bgdHomeLinkText"
-            app:srcCompat="@drawable/ic_vivs_512" />
+            app:srcCompat="@drawable/ic_vivs_512"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/vivsHomeLinkText"
