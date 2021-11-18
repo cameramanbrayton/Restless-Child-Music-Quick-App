@@ -9,7 +9,7 @@ android {
         applicationId "com.rcmusicapp.restlesschildmusicquickapp"
         minSdkVersion 16
         targetSdkVersion 31
-        versionCode 5
+        versionCode 6
         versionName "3.1"
         vectorDrawables.useSupportLibrary true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"

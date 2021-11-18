@@ -104,7 +104,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/bgdMusicAppLinkText"
             app:srcCompat="@drawable/ic_rcbgd_music_app_product_image_reduced"
-            tools:ignore="UsingOnClickInXml" />
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/rcBgdMusicAppLinkText"
@@ -135,7 +135,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/rcBgdMusicAppLinkText"
             app:srcCompat="@drawable/ic_restlesschild_members"
-            tools:ignore="UsingOnClickInXml" />
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/homeRcLinkText"
@@ -166,7 +166,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/homeRcLinkText"
             app:srcCompat="@drawable/ic_restlesschild_members"
-            tools:ignore="UsingOnClickInXml" />
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/aboutRcLinkText"
@@ -197,7 +197,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/aboutRcLinkText"
             app:srcCompat="@drawable/ic_restlesschild_members"
-            tools:ignore="UsingOnClickInXml" />
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/albumRcLinkText"
@@ -228,7 +228,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/albumRcLinkText"
             app:srcCompat="@drawable/ic_restlesschild_members"
-            tools:ignore="UsingOnClickInXml" />
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/contactRcLinkText"
