@@ -129,7 +129,7 @@
             android:layout_marginTop="20dp"
             android:contentDescription="@string/restless_child_1988_to_present_app_beginning_home_page"
             android:onClick="openBrowser"
-            android:tag="https://restlesschild.rocks/beginning/"
+            android:tag="https://bsme.duelingworlds.com/beginning/"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -160,7 +160,7 @@
             android:layout_marginTop="20dp"
             android:contentDescription="@string/restless_child_1988_to_present_app_about_page"
             android:onClick="openBrowser"
-            android:tag="https://restlesschild.rocks/about-the-band-restless-child/"
+            android:tag="https://bsme.duelingworlds.com/about-restless-child/"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -191,7 +191,7 @@
             android:layout_marginTop="20dp"
             android:contentDescription="@string/restless_child_1988_to_present_app_1989_album_page"
             android:onClick="openBrowser"
-            android:tag="https://restlesschild.rocks/1989-restless-child-album/"
+            android:tag="https://bsme.duelingworlds.com/1989-music-album/"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -222,7 +222,7 @@
             android:layout_marginTop="20dp"
             android:contentDescription="@string/restless_child_1988_to_present_app_contact_us"
             android:onClick="openBrowser"
-            android:tag="https://restlesschild.rocks/contact-brayton-scott/"
+            android:tag="https://bsme.duelingworlds.com/contact-us/"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -253,13 +253,13 @@
             android:layout_marginTop="20dp"
             android:contentDescription="@string/restless_child_1988_to_present_app_our_blog"
             android:onClick="openBrowser"
-            android:tag="https://restlesschild.rocks/our-blog-restless-child/"
+            android:tag="https://blog.duelingworlds.com/"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/contactRcLinkText"
             app:srcCompat="@drawable/ic_restlesschild_members"
-            tools:ignore="UsingOnClickInXml" />
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/blogRcLinkText"
@@ -290,7 +290,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/blogRcLinkText"
             app:srcCompat="@drawable/ic_duelingworlds_512"
-            tools:ignore="UsingOnClickInXml" />
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/duelingHomeLinkText"
@@ -315,13 +315,13 @@
             android:layout_marginTop="20dp"
             android:contentDescription="@string/bad_girls_dream_1990_present_quick_app"
             android:onClick="openBrowser"
-            android:tag="https://bgdmusic.club/"
+            android:tag="https://bsme.duelingworlds.com/bad-girls-dream-home/"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/duelingHomeLinkText"
             app:srcCompat="@drawable/ic_bgd_concert_512"
-            tools:ignore="UsingOnClickInXml" />
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/bgdHomeLinkText"
@@ -352,7 +352,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/bgdHomeLinkText"
             app:srcCompat="@drawable/ic_vivs_512"
-            tools:ignore="UsingOnClickInXml" />
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/vivsHomeLinkText"

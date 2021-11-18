@@ -2,11 +2,11 @@
     <string name="app_name">Restless Child Music Quick App</string>
     <string name="restless_child_music_quick_app">Restless Child Music Quick App</string>
     <string name="rchome">rchome</string>
-    <string name="restless_child_1988_to_present_app_beginning_home_page" translatable="false"><a href="https://restlesschild.rocks/beginning/">
+    <string name="restless_child_1988_to_present_app_beginning_home_page" translatable="false"><a href="https://bsme.duelingworlds.com/beginning/">
         Restless Child 1988 to Present App - Beginning Home Page</a></string>
-    <string name="restless_child_1988_to_present_app_about_page" translatable="false"><a href="https://restlesschild.rocks/about-the-band-restless-child/">
+    <string name="restless_child_1988_to_present_app_about_page" translatable="false"><a href="https://bsme.duelingworlds.com/about-restless-child/">
         Restless Child 1988 to Present App - About Page</a></string>
-    <string name="restless_child_1988_to_present_app_1989_album_page" translatable="false"><a href="https://restlesschild.rocks/1989-restless-child-album/">
+    <string name="restless_child_1988_to_present_app_1989_album_page" translatable="false"><a href="https://bsme.duelingworlds.com/1989-music-album/">
         Restless Child 1988 to Present App - 1989 Album Page</a></string>
     <string name="string_duelinghome">string/duelinghome</string>
     <string name="string_bgdhome">string/bgdhome</string>
@@ -21,13 +21,13 @@
         <a href="https://shop.duelingworlds.com/shop/brayton-scott-music-entertainment-all-music-app-17-songs-3-99/">
             Brayton Scott Music Entertainment All Music App, 17 Songs $3.99</a></string>
     <string name="restless_child_1988_to_present_app_contact_us" translatable="false">
-        <a href="https://restlesschild.rocks/contact-brayton-scott/">Restless Child 1988 to Present App - Contact Us</a></string>
+        <a href="https://bsme.duelingworlds.com/contact-us/">Restless Child 1988 to Present App - Contact Us</a></string>
     <string name="restless_child_1988_to_present_app_our_blog" translatable="false">
-        <a href="https://restlesschild.rocks/our-blog-restless-child/">Restless Child 1988 to Present App - Our Blog</a></string>
+        <a href="https://blog.duelingworlds.com/">Restless Child 1988 to Present App - Our Blog</a></string>
     <string name="dueling_worlds_international_quick_app" translatable="false">
         <a href="https://duelingworlds.com">Dueling Worlds© International Quick App</a></string>
     <string name="bad_girls_dream_1990_present_quick_app" translatable="false">
-        <a href="https://bgdmusic.club/">Bad Girls Dream 1990 - Present Quick App</a></string>
+        <a href="https://bsme.duelingworlds.com/bad-girls-dream-home/">Bad Girls Dream 1990 - Present Home</a></string>
     <string name="shopping_vivians_quick_app" translatable="false">
         <a href="https://vivians.biz">Shopping @ Vivian\'s Quick App</a></string>
 </resources>
